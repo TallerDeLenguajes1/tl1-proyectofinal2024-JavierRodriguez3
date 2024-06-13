@@ -1,6 +1,6 @@
 ﻿using FabricarPersonajes;
 using RellenarPersonajes;
-using ManejoDeApi;
+using ManejoJson;
 
 FabricaDePersonajes fabricarPj = new FabricaDePersonajes(); //instancio FabricaDePersonajes
 

@@ -1,4 +1,4 @@
-namespace ManejoJson;
+namespace ManejoDeApi;
 using System.Text.Json;
 
 

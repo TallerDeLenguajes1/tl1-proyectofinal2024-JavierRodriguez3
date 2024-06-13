@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using RellenarPersonajes;
 using ManejoJson;
+using ManejoDeApi;
 
 
 public class FabricaDePersonajes{
