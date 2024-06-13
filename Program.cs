@@ -1,11 +1,10 @@
-﻿using System.Threading.Tasks.Dataflow;
-using FabricarPersonajes;
+﻿using FabricarPersonajes;
 using RellenarPersonajes;
 using ManejoJson;
 
 FabricaDePersonajes fabricarPj = new FabricaDePersonajes(); //instancio FabricaDePersonajes
 
-List<Personaje> enemigos = fabricarPj.CrearEnemigos(); //creo los enemigos 
+List<Personaje> enemigos = await fabricarPj.CrearEnemigos(); //creo los enemigos 
 
 PersonajesJson enemigosJson = new PersonajesJson(); //instancio PersonajesJson
 
@@ -18,4 +17,3 @@ foreach (Personaje enemigo in enemigosLeer)
 {
     Console.WriteLine($"Nombre del enemigo {enemigo.Nombre}");
 }
-
