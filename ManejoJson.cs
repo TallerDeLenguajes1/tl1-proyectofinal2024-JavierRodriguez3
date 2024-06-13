@@ -1,4 +1,4 @@
-namespace ManejoJson;
+namespace ManejoDeApi;
 using RellenarPersonajes;
 using FabricarPersonajes;
 using System.Text.Json;
