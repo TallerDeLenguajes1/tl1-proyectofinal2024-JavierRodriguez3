@@ -17,7 +17,7 @@ public class Personaje{
     private List<string> jutsu;
     private string nombre;
     private string clan;
-    private DateTime fechaNacimiento;
+    private string fechaNacimiento;
     private int edad;
     private bool win;
 
@@ -32,7 +32,7 @@ public class Personaje{
     public List<string> Jutsu { get => jutsu; set => jutsu = value; }
     public string Nombre { get => nombre; set => nombre = value; }
     public string Clan { get => clan; set => clan = value; }
-    public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
+    public string FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
     public int Edad { get => edad; set => edad = value; }
     public bool Win { get => win; set => win = value; }
 }

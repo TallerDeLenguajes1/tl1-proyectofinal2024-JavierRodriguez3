@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using RellenarPersonajes;
 using ManejoJson;
 using ManejoDeApi;
-
+using System.Security.Cryptography;
 
 public class FabricaDePersonajes{
 private List<Personaje> enemigos;
@@ -26,6 +26,12 @@ public async Task<List<Personaje>> CrearEnemigos(){
         int valorNumerico = random.Next(0, 5);
         RangoPersonaje rango = (RangoPersonaje)valorNumerico;
         string nombreRango = rango.ToString();
+        int anio = random.Next(1750, 2025);
+        int dia = random.Next(1, 29);
+        int mes = random.Next(1, 12);
+        DateTime fechaHoy = DateTime.Now;
+        int edad = fechaHoy.Year - new DateTime(anio, mes, dia).Year;
+
 
         NuevoPersonaje[i] = new Personaje(){
             Velocidad = random.Next(1, 11),
@@ -36,8 +42,8 @@ public async Task<List<Personaje>> CrearEnemigos(){
             Salud = 100,
             Nombre = enemigosApi[i].name,
             Clan = enemigosApi[i].personal?.clan ?? "personaje sin clan",
-            FechaNacimiento = DateTime.Parse("1995-7-2"),
-            Edad = random.Next(0, 301),
+            FechaNacimiento = new DateTime(anio, mes, dia).ToString("yyyy-M-d"),
+            Edad =edad,
             Win = random.Next(0, 2) == 0
         };
         enemigos.Add(NuevoPersonaje[i]);
