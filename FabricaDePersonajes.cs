@@ -3,21 +3,27 @@ namespace FabricarPersonajes;
 
 
 public class FabricaDePersonajes{
-private List<Personaje> Enemigos;
-private Personaje MiPersonaje;
+private List<Personaje> enemigos;
+private Personaje miPersonaje;
+private string[] nombres;
 
 public FabricaDePersonajes(){
-    Enemigos = new List<Personaje>();  
+    enemigos = new List<Personaje>();  
+    nombres = new string[] {"dangelo", "trigo", "targa", "fla"};
 }
 public List<Personaje> CrearEnemigos(){
 
-    for (int i = 0; i < 3; i++)
+    
+    Random random = new Random();
+
+    for (int i = 0; i < 8; i++)
     {
         Personaje NuevoPersonaje = new Personaje();
-        NuevoPersonaje.Nombre="pedro";
-        Enemigos.Add(NuevoPersonaje);
+        int indiceAlea = random.Next(nombres.Length);
+        NuevoPersonaje.Nombre=nombres[indiceAlea];
+        enemigos.Add(NuevoPersonaje);
     }
-    return Enemigos;
+    return enemigos;
 }
 
 
