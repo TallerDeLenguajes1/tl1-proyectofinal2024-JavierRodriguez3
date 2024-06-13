@@ -37,7 +37,8 @@ public async Task<List<Personaje>> CrearEnemigos(){
             Nombre = enemigosApi[i].name,
             Clan = enemigosApi[i].personal?.clan ?? "personaje sin clan",
             FechaNacimiento = DateTime.Parse("1995-7-2"),
-            Edad = random.Next(0, 301)
+            Edad = random.Next(0, 301),
+            Win = random.Next(0, 2) == 0
         };
         enemigos.Add(NuevoPersonaje[i]);
     }

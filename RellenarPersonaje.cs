@@ -19,6 +19,7 @@ public class Personaje{
     private string clan;
     private DateTime fechaNacimiento;
     private int edad;
+    private bool win;
 
     public int Velocidad { get => velocidad; set => velocidad = value; }
     public int Destreza { get => destreza; set => destreza = value; }
@@ -33,4 +34,5 @@ public class Personaje{
     public string Clan { get => clan; set => clan = value; }
     public DateTime FechaNacimiento { get => fechaNacimiento; set => fechaNacimiento = value; }
     public int Edad { get => edad; set => edad = value; }
+    public bool Win { get => win; set => win = value; }
 }

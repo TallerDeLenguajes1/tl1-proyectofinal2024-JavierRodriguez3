@@ -15,21 +15,6 @@
     "Win": true
   },
   {
-    "Velocidad": 10,
-    "Destreza": 1,
-    "Fuerza": 10,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Ten-Tails",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 138,
-    "Win": false
-  },
-  {
     "Velocidad": 8,
     "Destreza": 4,
     "Fuerza": 5,
@@ -61,36 +46,6 @@
   },
   {
     "Velocidad": 1,
-    "Destreza": 3,
-    "Fuerza": 8,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "A (Second Raikage)",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 135,
-    "Win": false
-  },
-  {
-    "Velocidad": 9,
-    "Destreza": 2,
-    "Fuerza": 2,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 3,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "A (Third Raikage)",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 192,
-    "Win": false
-  },
-  {
-    "Velocidad": 1,
     "Destreza": 4,
     "Fuerza": 7,
     "Rango": 0,
@@ -103,21 +58,6 @@
     "FechaNacimiento": "1995-07-02T00:00:00",
     "Edad": 78,
     "Win": true
-  },
-  {
-    "Velocidad": 4,
-    "Destreza": 1,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 3,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Abiru",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 164,
-    "Win": false
   },
   {
     "Velocidad": 6,
@@ -133,36 +73,6 @@
     "FechaNacimiento": "1995-07-02T00:00:00",
     "Edad": 147,
     "Win": true
-  },
-  {
-    "Velocidad": 7,
-    "Destreza": 2,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 6,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Harika Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 46,
-    "Win": false
-  },
-  {
-    "Velocidad": 7,
-    "Destreza": 2,
-    "Fuerza": 7,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 8,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Muta Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 247,
-    "Win": false
   },
   {
     "Velocidad": 3,
@@ -210,36 +120,6 @@
     "Win": true
   },
   {
-    "Velocidad": 5,
-    "Destreza": 3,
-    "Fuerza": 7,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 5,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Tatsuma Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 25,
-    "Win": false
-  },
-  {
-    "Velocidad": 4,
-    "Destreza": 3,
-    "Fuerza": 6,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 10,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Torune Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 204,
-    "Win": false
-  },
-  {
     "Velocidad": 2,
     "Destreza": 5,
     "Fuerza": 1,
@@ -268,21 +148,6 @@
     "FechaNacimiento": "1995-07-02T00:00:00",
     "Edad": 223,
     "Win": true
-  },
-  {
-    "Velocidad": 2,
-    "Destreza": 3,
-    "Fuerza": 5,
-    "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 9,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Agara",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1995-07-02T00:00:00",
-    "Edad": 241,
-    "Win": false
   },
   {
     "Velocidad": 1,
