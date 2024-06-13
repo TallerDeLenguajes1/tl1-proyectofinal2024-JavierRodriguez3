@@ -9,7 +9,7 @@ private string[] nombres;
 
 public FabricaDePersonajes(){
     enemigos = new List<Personaje>();  
-    nombres = new string[] {"dangelo", "trigo", "targa", "fla"};
+    nombres = new string[] {"dangelo", "trigo", "targa", "fla", "guille", "luciano", "tommy", "peper"};
 }
 public List<Personaje> CrearEnemigos(){
 
