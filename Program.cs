@@ -10,7 +10,7 @@ List<Personaje> enemigos = await fabricarPj.CrearEnemigos(); //creo los enemigos
 PersonajesJson enemigosJson = new PersonajesJson(); //instancio PersonajesJson
 
 
-string nombreArchivo = "enemigos.json";
+string nombreArchivo = "Json/enemigos.json";
 enemigosJson.GuardarPersonaje(enemigos, nombreArchivo);   //guardo los enemigos creador en un json
 
 List<Personaje> enemigosLeer = enemigosJson.LeerPersonajes(nombreArchivo);
@@ -26,11 +26,9 @@ foreach (Personaje enemigo in enemigosLeer)
     }
 }
 
-
-
 GanadoresJson ganadoresJson = new GanadoresJson();
 
-string nombreArchivo2 = "ganadores.json";
+string nombreArchivo2 = "Json/ganadores.json";
 ganadoresJson.GuardarGanador(winners, nombreArchivo2);
 
 

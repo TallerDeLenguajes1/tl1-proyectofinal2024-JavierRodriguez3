@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using RellenarPersonajes;
 using ManejoJson;
 using ManejoDeApi;
-using System.Security.Cryptography;
 
 public class FabricaDePersonajes{
 private List<Personaje> enemigos;
@@ -14,10 +13,9 @@ public FabricaDePersonajes(){
     enemigos = new List<Personaje>(); 
 }
 public async Task<List<Personaje>> CrearEnemigos(){
- 
+
     Random random = new Random();
-    Personaje[] NuevoPersonaje = new Personaje[20];
-    Array valoresRango = Enum.GetValues(typeof(RangoPersonaje));
+    Personaje[] NuevoPersonaje = new Personaje[10];
     List<Character> enemigosApi = await ConsumirApi.TraerInformacionApi();
 
 
@@ -39,6 +37,7 @@ public async Task<List<Personaje>> CrearEnemigos(){
             Fuerza = random.Next(1, 11),
             Range = nombreRango,
             Armadura = random.Next(1, 11),
+            Jutsu = enemigosApi[i].jutsu,
             Salud = 100,
             Nombre = enemigosApi[i].name,
             Clan = enemigosApi[i].personal?.clan ?? "personaje sin clan",

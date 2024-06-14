@@ -10,7 +10,8 @@ public class ConsumirApi{
         {
 
             List<Character> listaPersonajes = new List<Character>();
-
+            List<Character> listaPersonajesRan = new List<Character>();
+            Random random = new Random();
             try
             {
                 using HttpClient client = new HttpClient();
@@ -26,16 +27,6 @@ public class ConsumirApi{
                 {
                     listaPersonajes.AddRange(apiResponse.characters);
                 }
-
-
-            }
-            catch (HttpRequestException ex)
-            {
-                Console.WriteLine("Error de red al llamar a la API: " + ex.Message);
-            }
-            catch (JsonException ex)
-            {
-                Console.WriteLine("Error de deserializar JSON: " + ex.Message);
             }
             catch (Exception ex)
             {
