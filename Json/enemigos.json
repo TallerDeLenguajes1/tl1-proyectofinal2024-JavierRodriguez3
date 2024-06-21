@@ -1,97 +1,43 @@
 [
   {
-    "Velocidad": 6,
-    "Destreza": 2,
-    "Fuerza": 10,
+    "Velocidad": 4,
+    "Destreza": 4,
+    "Fuerza": 2,
     "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 3,
+    "Range": "4",
+    "Armadura": 9,
     "Salud": 100,
     "Jutsu": [
       "Shadow Arms"
     ],
     "Nombre": "Zero-Tails",
     "Clan": "personaje sin clan",
-    "FechaNacimiento": "1787-3-26",
-    "Edad": 237,
-    "Win": true
-  },
-  {
-    "Velocidad": 5,
-    "Destreza": 4,
-    "Fuerza": 2,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 7,
-    "Salud": 100,
-    "Jutsu": [
-      "Six Paths Senjutsu",
-      "Tailed Beast Ball",
-      "Tailed Beast Chakra Arms",
-      "Tailed Beast Shockwave",
-      "Ten-Tails Fission",
-      "Tenpenchii",
-      "Truth-Seeking Ball",
-      "Wood Release: Cutting Technique"
-    ],
-    "Nombre": "Ten-Tails",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "2024-5-10",
-    "Edad": 0,
-    "Win": false
+    "FechaNacimiento": "1905-7-6",
+    "Edad": 119
   },
   {
     "Velocidad": 7,
     "Destreza": 2,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Three-Headed Guardian Beast",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1960-10-26",
-    "Edad": 64,
-    "Win": true
-  },
-  {
-    "Velocidad": 1,
-    "Destreza": 4,
-    "Fuerza": 4,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "A (First Raikage)",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1827-11-10",
-    "Edad": 197,
-    "Win": true
-  },
-  {
-    "Velocidad": 9,
-    "Destreza": 5,
-    "Fuerza": 9,
+    "Fuerza": 6,
     "Rango": 0,
     "Range": "Chunin",
-    "Armadura": 7,
+    "Armadura": 6,
     "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "A (Second Raikage)",
+    "Jutsu": [
+      "Naruto: Ultimate Ninja Online14 April 201320 July 2016"
+    ],
+    "Nombre": "Zaku Abumi",
     "Clan": "personaje sin clan",
-    "FechaNacimiento": "1813-5-16",
-    "Edad": 211,
-    "Win": false
+    "FechaNacimiento": "2015-11-2",
+    "Edad": 9
   },
   {
-    "Velocidad": 1,
-    "Destreza": 4,
-    "Fuerza": 3,
+    "Velocidad": 8,
+    "Destreza": 3,
+    "Fuerza": 2,
     "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 7,
+    "Range": "Chunin",
+    "Armadura": 8,
     "Salud": 100,
     "Jutsu": [
       "Black Lightning",
@@ -102,86 +48,83 @@
     ],
     "Nombre": "A (Third Raikage)",
     "Clan": "personaje sin clan",
-    "FechaNacimiento": "1767-2-18",
-    "Edad": 257,
-    "Win": true
+    "FechaNacimiento": "1755-9-5",
+    "Edad": 269
   },
   {
-    "Velocidad": 3,
-    "Destreza": 5,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "Kage",
-    "Armadura": 3,
-    "Salud": 100,
-    "Jutsu": [
-      "Body Flicker Technique",
-      "Drop Kick (Anime only)",
-      "Elbow",
-      "Guillotine Drop",
-      "Iron Claw",
-      "Liger Bomb",
-      "Lightning Oppression Horizontal",
-      "Lightning Oppression Horizontal Chop",
-      "Lightning Release Chakra Mode",
-      "Lightning Release: Double Lariat",
-      "Lightning Release: Lariat",
-      "Lightning Straight",
-      "Lightning Water Dragon Bullet"
-    ],
-    "Nombre": "A (Fourth Raikage)",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1949-4-23",
-    "Edad": 75,
-    "Win": true
-  },
-  {
-    "Velocidad": 3,
-    "Destreza": 4,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": null,
-    "Nombre": "Abiru",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1750-9-19",
-    "Edad": 274,
-    "Win": true
-  },
-  {
-    "Velocidad": 7,
-    "Destreza": 4,
-    "Fuerza": 9,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": [
-      "Naruto: Ultimate Ninja Online14 April 201320 July 2016"
-    ],
-    "Nombre": "Zaku Abumi",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1867-2-1",
-    "Edad": 157,
-    "Win": false
-  },
-  {
-    "Velocidad": 5,
-    "Destreza": 3,
-    "Fuerza": 10,
+    "Velocidad": 8,
+    "Destreza": 2,
+    "Fuerza": 2,
     "Rango": 0,
     "Range": "Chunin",
+    "Armadura": 8,
+    "Salud": 100,
+    "Jutsu": null,
+    "Nombre": "Ada",
+    "Clan": "personaje sin clan",
+    "FechaNacimiento": "1929-6-8",
+    "Edad": 95
+  },
+  {
+    "Velocidad": 4,
+    "Destreza": 5,
+    "Fuerza": 7,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 2,
+    "Salud": 100,
+    "Jutsu": [
+      "Shadow Arms"
+    ],
+    "Nombre": "Zero-Tails",
+    "Clan": "personaje sin clan",
+    "FechaNacimiento": "1751-6-5",
+    "Edad": 273
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 5,
+    "Fuerza": 7,
+    "Rango": 0,
+    "Range": "Genin",
     "Armadura": 7,
     "Salud": 100,
     "Jutsu": [
-      "Parasitic Destruction Insect Technique (Kikaich\u016B)"
+      "Parasitic Destruction Insect Technique (Rinkaich\u016B)"
     ],
-    "Nombre": "Harika Aburame",
+    "Nombre": "Shikuro Aburame",
     "Clan": "Aburame",
-    "FechaNacimiento": "1825-5-10",
-    "Edad": 199,
-    "Win": false
+    "FechaNacimiento": "1910-10-18",
+    "Edad": 114
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 5,
+    "Fuerza": 4,
+    "Rango": 0,
+    "Range": "Genin",
+    "Armadura": 7,
+    "Salud": 100,
+    "Jutsu": null,
+    "Nombre": "A (First Raikage)",
+    "Clan": "personaje sin clan",
+    "FechaNacimiento": "1952-8-25",
+    "Edad": 72
+  },
+  {
+    "Velocidad": 1,
+    "Destreza": 2,
+    "Fuerza": 3,
+    "Rango": 0,
+    "Range": "Genin",
+    "Armadura": 10,
+    "Salud": 100,
+    "Jutsu": [
+      "Parasitic Destruction Insect Technique"
+    ],
+    "Nombre": "Tatsuma Aburame",
+    "Clan": "Aburame",
+    "FechaNacimiento": "1844-3-10",
+    "Edad": 180
   }
 ]

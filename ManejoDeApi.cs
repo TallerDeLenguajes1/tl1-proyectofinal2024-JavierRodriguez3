@@ -10,12 +10,12 @@ public class ConsumirApi{
         {
 
             List<Character> listaPersonajes = new List<Character>();
-            List<Character> listaPersonajesRan = new List<Character>();
             Random random = new Random();
+            int a = random.Next(8, 20);
             try
             {
                 using HttpClient client = new HttpClient();
-                var url = "https://narutodb.xyz/api/character";
+                var url = $"https://narutodb.xyz/api/character";
                 HttpResponseMessage response = await client.GetAsync(url);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();

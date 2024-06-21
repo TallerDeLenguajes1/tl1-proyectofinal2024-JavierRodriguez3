@@ -15,11 +15,10 @@ public FabricaDePersonajes(){
 public async Task<List<Personaje>> CrearEnemigos(){
 
     Random random = new Random();
-    Personaje[] NuevoPersonaje = new Personaje[10];
     List<Character> enemigosApi = await ConsumirApi.TraerInformacionApi();
 
 
-    for (int i = 0; i < NuevoPersonaje.Length; i++)
+    for (int i = 0; i < 8; i++)
     {
         int valorNumerico = random.Next(0, 5);
         RangoPersonaje rango = (RangoPersonaje)valorNumerico;
@@ -30,22 +29,22 @@ public async Task<List<Personaje>> CrearEnemigos(){
         DateTime fechaHoy = DateTime.Now;
         int edad = fechaHoy.Year - new DateTime(anio, mes, dia).Year;
 
+    int a = random.Next(0, enemigosApi.Count);
 
-        NuevoPersonaje[i] = new Personaje(){
+        Personaje NuevoPersonaje = new Personaje(){
             Velocidad = random.Next(1, 11),
             Destreza = random.Next(1, 6),
             Fuerza = random.Next(1, 11),
             Range = nombreRango,
             Armadura = random.Next(1, 11),
-            Jutsu = enemigosApi[i].jutsu,
+            Jutsu = enemigosApi[a].jutsu,
             Salud = 100,
-            Nombre = enemigosApi[i].name,
-            Clan = enemigosApi[i].personal?.clan ?? "personaje sin clan",
+            Nombre = enemigosApi[a].name,
+            Clan = enemigosApi[a].personal?.clan ?? "personaje sin clan",
             FechaNacimiento = new DateTime(anio, mes, dia).ToString("yyyy-M-d"),
-            Edad =edad,
-            Win = random.Next(0, 2) == 0
+            Edad =edad
         };
-        enemigos.Add(NuevoPersonaje[i]);
+        enemigos.Add(NuevoPersonaje);
     }
 
     return enemigos;
