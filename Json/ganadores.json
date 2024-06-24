@@ -1,48 +1,88 @@
 [
   {
-    "Velocidad": 4,
+    "Velocidad": 5,
+    "Destreza": 3,
+    "Fuerza": 80,
+    "Rango": 0,
+    "Range": "Kage",
+    "Armadura": 8,
+    "Salud": 7,
+    "Jutsu": [
+      "Six Paths Senjutsu",
+      "Tailed Beast Ball",
+      "Tailed Beast Chakra Arms",
+      "Tailed Beast Shockwave",
+      "Ten-Tails Fission",
+      "Tenpenchii",
+      "Truth-Seeking Ball",
+      "Wood Release: Cutting Technique"
+    ],
+    "Nombre": "Ten-Tails",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1984-3-5",
+    "Edad": 40
+  },
+  {
+    "Velocidad": 2,
     "Destreza": 5,
-    "Fuerza": 72,
+    "Fuerza": 80,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 4,
+    "Salud": 83,
+    "Jutsu": [
+      "Naruto: Ultimate Ninja Online14 April 201320 July 2016"
+    ],
+    "Nombre": "Zaku Abumi",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1946-2-9",
+    "Edad": 78
+  },
+  {
+    "Velocidad": 2,
+    "Destreza": 4,
+    "Fuerza": 32,
+    "Rango": 0,
+    "Range": "Kage",
+    "Armadura": 3,
+    "Salud": 24,
+    "Jutsu": [
+      "Shadow Arms"
+    ],
+    "Nombre": "Zero-Tails",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1757-2-23",
+    "Edad": 267
+  },
+  {
+    "Velocidad": 5,
+    "Destreza": 5,
+    "Fuerza": 80,
     "Rango": 0,
     "Range": "Jonin",
     "Armadura": 1,
-    "Salud": 34,
+    "Salud": 23,
     "Jutsu": [
-      "Shadow Arms"
+      "Human Cocoon Technique (Anime only)",
+      "Insect Clone Technique",
+      "Insect Jamming Technique",
+      "Insect Jar Technique (Anime only)",
+      "Insect Rope Technique (Anime only)",
+      "Iron Mountain Leaning (Anime only)",
+      "Manipulated Shuriken Technique (Anime only)",
+      "Parasitic Destruction Insect Technique (Giant Insect, Kidaich\u016B, Kikaich\u016B)",
+      "Parasitic Giant Insect \u2014 Bug Bite",
+      "Secret Technique: Insect Cocoon (Anime only)",
+      "Secret Technique: Insect Gathering (Anime only)",
+      "Secret Technique: Insect Sphere",
+      "Secret Technique: Insect Tornado (Anime only)",
+      "Secret Technique: Insect Wall (Anime only)",
+      "Spindle Formation (Anime only)",
+      "Summoning Technique (Giant Insect, Kidaich\u016B, Kikaich\u016B)"
     ],
-    "Nombre": "Zero-Tails",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1976-10-14",
-    "Edad": 48
-  },
-  {
-    "Velocidad": 4,
-    "Destreza": 2,
-    "Fuerza": 56,
-    "Rango": 0,
-    "Range": "Kage",
-    "Armadura": 9,
-    "Salud": 3,
-    "Jutsu": null,
-    "Nombre": "Abiru",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1941-3-26",
-    "Edad": 83
-  },
-  {
-    "Velocidad": 4,
-    "Destreza": 5,
-    "Fuerza": 56,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 2,
-    "Salud": 69,
-    "Jutsu": [
-      "Shadow Arms"
-    ],
-    "Nombre": "Zero-Tails",
-    "Clan": "personaje sin clan",
-    "FechaNacimiento": "1751-6-5",
-    "Edad": 273
+    "Nombre": "Shino Aburame",
+    "Clan": "Aburame",
+    "FechaNacimiento": "1977-4-28",
+    "Edad": 47
   }
 ]

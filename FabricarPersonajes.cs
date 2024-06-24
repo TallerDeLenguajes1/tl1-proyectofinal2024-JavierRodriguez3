@@ -37,10 +37,10 @@ public async Task<List<Personaje>> CrearEnemigos(){
             Fuerza = random.Next(1, 11),
             Range = nombreRango,
             Armadura = random.Next(1, 11),
-            Jutsu = enemigosApi[a].jutsu,
+            Jutsu = enemigosApi[a].jutsu ?? ["Taijutsu"],
             Salud = 100,
             Nombre = enemigosApi[a].name,
-            Clan = enemigosApi[a].personal?.clan ?? "personaje sin clan",
+            Clan = enemigosApi[a].personal?.clan ?? "Renegado",
             FechaNacimiento = new DateTime(anio, mes, dia).ToString("yyyy-M-d"),
             Edad =edad
         };
