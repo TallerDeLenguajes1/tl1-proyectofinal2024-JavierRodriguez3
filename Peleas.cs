@@ -1,9 +1,23 @@
 namespace Peleas;
-
+using FabricarPersonajes;
 using RellenarPersonajes;
 
 public class Combate
 {
+
+    private string[] Armas = new string[]
+{
+    "Kunai",
+    "Shuriken",
+    "Fūma Shuriken",
+    "Senbon",
+    "Katana",
+    "Kusanagi",
+    "Samehada",
+    "Kubikiribōchō",
+    "Hiramekarei",
+    "Kiba"
+};
 
     public void  realizarCombate(Personaje atacante, Personaje defensor)
     {
@@ -16,13 +30,63 @@ public class Combate
         int danioProvocado = ((ataque * efectividad) - defensa) / Ajuste;
 
         defensor.Salud = defensor.Salud - danioProvocado;
+        Console.WriteLine("-----------------------------------------------------");
+        Console.WriteLine($"{defensor.Nombre} Recibio daño y su vida disminuyo a {defensor.Salud}");
+        Console.WriteLine("-----------------------------------------------------");
     }
 
     public Personaje turno(Personaje atacante, Personaje defensor)
         {
+            Random random = new Random();
             while (atacante.Salud > 0 && defensor.Salud > 0)
             {
-                realizarCombate(atacante, defensor);
+                
+                Console.WriteLine("######################################################");
+                Console.WriteLine("###########################Que comience la batalla###########################");
+                Console.WriteLine("######################################################");
+
+                Console.WriteLine($"El peleador {atacante.Nombre} Esta por elegir su movimiento");
+                Console.WriteLine("Seleccionar la opcion deseada");
+                Console.WriteLine("1. Atacar \n 2. Defender \n 3. Saltar \n 4. Rendirse");
+                int eleccion = Convert.ToInt32(Console.ReadLine());
+
+                switch (eleccion)
+                {
+                    case 1:
+                        realizarCombate(atacante, defensor);
+                        if(atacante.Jutsu[0] == "Taiujutsu"){
+                            Console.WriteLine("-----------------------------------------------------");
+                            Console.WriteLine($"{atacante.Nombre} Utilizo {Armas[random.Next(0, 11)]}");
+                            Console.WriteLine("-----------------------------------------------------");
+                        }
+                        else{
+                            Console.WriteLine("-----------------------------------------------------");
+                            Console.WriteLine($"{atacante.Nombre} Utilizo {atacante.Jutsu[random.Next(0, atacante.Jutsu.Count)]}");
+                            Console.WriteLine("-----------------------------------------------------");
+                        }
+                        break;
+                    case 2:
+                        atacante.Armadura +=  1;
+                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine($"{atacante.Nombre} se agrego {4} de defensa y ahora tiene {atacante.Armadura}");
+                        Console.WriteLine("-----------------------------------------------------");
+                        break;
+                    case 3: 
+                        break;    
+                    case 4:
+                        atacante.Salud = 0;
+                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine($"{atacante.Nombre} cometio suicidio");
+                        Console.WriteLine("-----------------------------------------------------");
+                        if (atacante.Salud <= 0)
+                        {
+                            defensor.Fuerza = defensor.Fuerza * 2;
+                            return atacante;
+                        }
+                        break;
+                }
+
+                
 
                 if (defensor.Salud <= 0)
                 {
@@ -30,7 +94,52 @@ public class Combate
                     return defensor;
                 }
 
-                realizarCombate(defensor, atacante);
+                Console.WriteLine("-----------------------------------------------------");
+                Console.WriteLine("-----------------------Que comience la batalla-----------------------");
+                Console.WriteLine("-----------------------------------------------------");
+
+                Console.WriteLine($"El peleador {defensor.Nombre} Esta por elegir su movimiento");
+                Console.WriteLine("Seleccionar la opcion deseada");
+                Console.WriteLine("1. Atacar \n 2. Defender \n 3. Saltar \n 4. Rendirse");
+                eleccion = Convert.ToInt32(Console.ReadLine());
+
+                switch (eleccion)
+                {
+                    case 1:
+                        realizarCombate(defensor, atacante);
+                        if(defensor.Jutsu[0] == "Taiujutsu"){
+                            Console.WriteLine("-----------------------------------------------------");
+                            Console.WriteLine($"{defensor.Nombre} Utilizo {Armas[random.Next(0, 11)]}");
+                            Console.WriteLine("-----------------------------------------------------");
+                        }
+                        else{
+                            Console.WriteLine("-----------------------------------------------------");
+                            Console.WriteLine($"{defensor.Nombre} Utilizo {defensor.Jutsu[random.Next(0, defensor.Jutsu.Count)]}");
+                            Console.WriteLine("-----------------------------------------------------");
+                        }
+                        break;
+                    case 2:
+                        defensor.Armadura += 1;
+                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine($"{defensor.Nombre} se agrego {4} de defensa y ahora tiene {defensor.Armadura}");
+                        Console.WriteLine("-----------------------------------------------------");
+                        break;
+                    case 3: 
+                        break;    
+                    case 4:
+                        defensor.Salud = 0;
+                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine($"{defensor.Nombre} cometio suicidio");
+                        Console.WriteLine("-----------------------------------------------------");
+                        if (defensor.Salud <= 0)
+                        {
+                            atacante.Fuerza = atacante.Fuerza * 2;
+                            return defensor;
+                        }
+                        break;
+                }
+
+                
             }
 
             if (atacante.Salud <= 0)

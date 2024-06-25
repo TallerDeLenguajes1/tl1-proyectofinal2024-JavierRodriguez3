@@ -32,11 +32,11 @@ public async Task<List<Personaje>> CrearEnemigos(){
     int a = random.Next(0, enemigosApi.Count);
 
         Personaje NuevoPersonaje = new Personaje(){
-            Velocidad = random.Next(1, 11),
+            Velocidad = random.Next(1, 7),
             Destreza = random.Next(1, 6),
             Fuerza = random.Next(1, 11),
             Range = nombreRango,
-            Armadura = random.Next(1, 11),
+            Armadura = random.Next(1, 7),
             Jutsu = enemigosApi[a].jutsu ?? ["Taijutsu"],
             Salud = 100,
             Nombre = enemigosApi[a].name,

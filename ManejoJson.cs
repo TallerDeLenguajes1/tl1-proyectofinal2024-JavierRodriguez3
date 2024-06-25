@@ -12,7 +12,6 @@ public class PersonajesJson{
         try{
             string jsonString = JsonSerializer.Serialize(enemigos, new JsonSerializerOptions{WriteIndented = true});
             File.WriteAllText(enemigosJson, jsonString);
-            Console.WriteLine("Enemigo guardado con exito");
         }
         catch (Exception ex){
             Console.WriteLine($"Error al guardar personaje {ex.Message}");
@@ -29,7 +28,6 @@ public class PersonajesJson{
             }
             string jsonString =  File.ReadAllText(enemigosJson);
             List<Personaje> enemigos = JsonSerializer.Deserialize<List<Personaje>>(jsonString);
-            Console.WriteLine("Personaje leidos con exito");
             return enemigos;
         }
         catch (Exception ex)

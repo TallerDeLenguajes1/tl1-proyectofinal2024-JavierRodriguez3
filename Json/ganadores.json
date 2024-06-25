@@ -1,88 +1,142 @@
 [
   {
-    "Velocidad": 5,
+    "Velocidad": 7,
     "Destreza": 3,
-    "Fuerza": 80,
+    "Fuerza": 48,
     "Rango": 0,
     "Range": "Kage",
     "Armadura": 8,
-    "Salud": 7,
+    "Salud": 100,
     "Jutsu": [
-      "Six Paths Senjutsu",
-      "Tailed Beast Ball",
-      "Tailed Beast Chakra Arms",
-      "Tailed Beast Shockwave",
-      "Ten-Tails Fission",
-      "Tenpenchii",
-      "Truth-Seeking Ball",
-      "Wood Release: Cutting Technique"
+      "Body Flicker Technique",
+      "Drop Kick (Anime only)",
+      "Elbow",
+      "Guillotine Drop",
+      "Iron Claw",
+      "Liger Bomb",
+      "Lightning Oppression Horizontal",
+      "Lightning Oppression Horizontal Chop",
+      "Lightning Release Chakra Mode",
+      "Lightning Release: Double Lariat",
+      "Lightning Release: Lariat",
+      "Lightning Straight",
+      "Lightning Water Dragon Bullet"
     ],
-    "Nombre": "Ten-Tails",
+    "Nombre": "A (Fourth Raikage)",
     "Clan": "Renegado",
-    "FechaNacimiento": "1984-3-5",
-    "Edad": 40
+    "FechaNacimiento": "1992-9-4",
+    "Edad": 32
+  },
+  {
+    "Velocidad": 6,
+    "Destreza": 3,
+    "Fuerza": 32,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 3,
+    "Salud": 88,
+    "Jutsu": [
+      "Parasitic Destruction Insect Technique (Rinkaich\u016B)"
+    ],
+    "Nombre": "Shikuro Aburame",
+    "Clan": "Aburame",
+    "FechaNacimiento": "1945-9-3",
+    "Edad": 79
   },
   {
     "Velocidad": 2,
-    "Destreza": 5,
-    "Fuerza": 80,
+    "Destreza": 2,
+    "Fuerza": 56,
     "Rango": 0,
-    "Range": "4",
-    "Armadura": 4,
-    "Salud": 83,
+    "Range": "Jonin",
+    "Armadura": 8,
+    "Salud": 95,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "A (Second Raikage)",
+    "Clan": "Renegado",
+    "FechaNacimiento": "2024-6-12",
+    "Edad": 0
+  },
+  {
+    "Velocidad": 6,
+    "Destreza": 3,
+    "Fuerza": 16,
+    "Rango": 0,
+    "Range": "Genin",
+    "Armadura": 2,
+    "Salud": 100,
     "Jutsu": [
       "Naruto: Ultimate Ninja Online14 April 201320 July 2016"
     ],
     "Nombre": "Zaku Abumi",
     "Clan": "Renegado",
-    "FechaNacimiento": "1946-2-9",
-    "Edad": 78
+    "FechaNacimiento": "1983-8-13",
+    "Edad": 41
   },
   {
     "Velocidad": 2,
+    "Destreza": 3,
+    "Fuerza": 24,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 5,
+    "Salud": 12,
+    "Jutsu": [
+      "Parasitic Destruction Insect Technique (Koch\u016B)"
+    ],
+    "Nombre": "Y\u014Dji Aburame",
+    "Clan": "Aburame",
+    "FechaNacimiento": "1790-4-7",
+    "Edad": 234
+  },
+  {
+    "Velocidad": 6,
     "Destreza": 4,
     "Fuerza": 32,
     "Rango": 0,
-    "Range": "Kage",
-    "Armadura": 3,
-    "Salud": 24,
+    "Range": "Jonin",
+    "Armadura": 10,
+    "Salud": 100,
     "Jutsu": [
-      "Shadow Arms"
+      "Parasitic Destruction Insect Technique"
     ],
-    "Nombre": "Zero-Tails",
+    "Nombre": "Tatsuma Aburame",
+    "Clan": "Aburame",
+    "FechaNacimiento": "1894-8-22",
+    "Edad": 130
+  },
+  {
+    "Velocidad": 10,
+    "Destreza": 2,
+    "Fuerza": 32,
+    "Rango": 0,
+    "Range": "Kage",
+    "Armadura": 17,
+    "Salud": 74,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Agari",
     "Clan": "Renegado",
-    "FechaNacimiento": "1757-2-23",
-    "Edad": 267
+    "FechaNacimiento": "1903-7-11",
+    "Edad": 121
   },
   {
     "Velocidad": 5,
-    "Destreza": 5,
-    "Fuerza": 80,
+    "Destreza": 3,
+    "Fuerza": 64,
     "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 1,
-    "Salud": 23,
+    "Range": "Kage",
+    "Armadura": 10,
+    "Salud": 31,
     "Jutsu": [
-      "Human Cocoon Technique (Anime only)",
-      "Insect Clone Technique",
-      "Insect Jamming Technique",
-      "Insect Jar Technique (Anime only)",
-      "Insect Rope Technique (Anime only)",
-      "Iron Mountain Leaning (Anime only)",
-      "Manipulated Shuriken Technique (Anime only)",
-      "Parasitic Destruction Insect Technique (Giant Insect, Kidaich\u016B, Kikaich\u016B)",
-      "Parasitic Giant Insect \u2014 Bug Bite",
-      "Secret Technique: Insect Cocoon (Anime only)",
-      "Secret Technique: Insect Gathering (Anime only)",
-      "Secret Technique: Insect Sphere",
-      "Secret Technique: Insect Tornado (Anime only)",
-      "Secret Technique: Insect Wall (Anime only)",
-      "Spindle Formation (Anime only)",
-      "Summoning Technique (Giant Insect, Kidaich\u016B, Kikaich\u016B)"
+      "Parasitic Destruction Insect Technique (Koch\u016B)"
     ],
-    "Nombre": "Shino Aburame",
+    "Nombre": "Y\u014Dji Aburame",
     "Clan": "Aburame",
-    "FechaNacimiento": "1977-4-28",
-    "Edad": 47
+    "FechaNacimiento": "1808-5-7",
+    "Edad": 216
   }
 ]

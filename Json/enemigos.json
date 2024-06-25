@@ -1,147 +1,149 @@
 [
   {
-    "Velocidad": 9,
-    "Destreza": 2,
-    "Fuerza": 1,
+    "Velocidad": 4,
+    "Destreza": 4,
+    "Fuerza": 10,
     "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 2,
+    "Range": "Genin",
+    "Armadura": 3,
     "Salud": 100,
     "Jutsu": [
-      "Parasitic Destruction Insect Technique (Rinkaich\u016B)"
+      "Black Lightning",
+      "Body Flicker Technique",
+      "Hell Stab",
+      "Lightning Release Chakra Mode",
+      "Lightning Straight"
     ],
-    "Nombre": "Shikuro Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1790-4-17",
-    "Edad": 234
-  },
-  {
-    "Velocidad": 1,
-    "Destreza": 3,
-    "Fuerza": 9,
-    "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": [
-      "Taijutsu"
-    ],
-    "Nombre": "Three-Headed Guardian Beast",
+    "Nombre": "A (Third Raikage)",
     "Clan": "Renegado",
-    "FechaNacimiento": "1875-1-26",
-    "Edad": 149
+    "FechaNacimiento": "1812-3-14",
+    "Edad": 212
   },
   {
-    "Velocidad": 3,
-    "Destreza": 2,
-    "Fuerza": 4,
+    "Velocidad": 6,
+    "Destreza": 3,
+    "Fuerza": 7,
     "Rango": 0,
-    "Range": "Kage",
+    "Range": "Genin",
     "Armadura": 6,
     "Salud": 100,
     "Jutsu": [
-      "Insect Jamming Technique",
-      "Parasitic Destruction Insect Technique (Kikaich\u016B, Sh\u014Dkaich\u016B)"
+      "Six Paths Senjutsu",
+      "Tailed Beast Ball",
+      "Tailed Beast Chakra Arms",
+      "Tailed Beast Shockwave",
+      "Ten-Tails Fission",
+      "Tenpenchii",
+      "Truth-Seeking Ball",
+      "Wood Release: Cutting Technique"
     ],
-    "Nombre": "Muta Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1772-5-16",
-    "Edad": 252
+    "Nombre": "Ten-Tails",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1953-4-18",
+    "Edad": 71
   },
   {
-    "Velocidad": 2,
+    "Velocidad": 6,
     "Destreza": 3,
-    "Fuerza": 5,
+    "Fuerza": 9,
     "Rango": 0,
     "Range": "Genin",
-    "Armadura": 7,
+    "Armadura": 3,
     "Salud": 100,
     "Jutsu": [
-      "Insect Jamming Technique",
-      "Parasitic Destruction Insect Technique (Kikaich\u016B, Sh\u014Dkaich\u016B)"
+      "Black Lightning",
+      "Body Flicker Technique",
+      "Hell Stab",
+      "Lightning Release Chakra Mode",
+      "Lightning Straight"
     ],
-    "Nombre": "Muta Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1911-8-20",
-    "Edad": 113
-  },
-  {
-    "Velocidad": 8,
-    "Destreza": 2,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 9,
-    "Salud": 100,
-    "Jutsu": [
-      "Taijutsu"
-    ],
-    "Nombre": "Abiru",
+    "Nombre": "A (Third Raikage)",
     "Clan": "Renegado",
-    "FechaNacimiento": "1787-3-26",
-    "Edad": 237
+    "FechaNacimiento": "1799-8-18",
+    "Edad": 225
   },
   {
     "Velocidad": 5,
-    "Destreza": 5,
-    "Fuerza": 10,
+    "Destreza": 3,
+    "Fuerza": 3,
     "Rango": 0,
     "Range": "Jonin",
+    "Armadura": 4,
+    "Salud": 100,
+    "Jutsu": [
+      "Black Lightning",
+      "Body Flicker Technique",
+      "Hell Stab",
+      "Lightning Release Chakra Mode",
+      "Lightning Straight"
+    ],
+    "Nombre": "A (Third Raikage)",
+    "Clan": "Renegado",
+    "FechaNacimiento": "2018-5-3",
+    "Edad": 6
+  },
+  {
+    "Velocidad": 1,
+    "Destreza": 5,
+    "Fuerza": 9,
+    "Rango": 0,
+    "Range": "Kage",
+    "Armadura": 3,
+    "Salud": 100,
+    "Jutsu": [
+      "Parasitic Destruction Insect Technique"
+    ],
+    "Nombre": "Tatsuma Aburame",
+    "Clan": "Aburame",
+    "FechaNacimiento": "1849-1-23",
+    "Edad": 175
+  },
+  {
+    "Velocidad": 4,
+    "Destreza": 2,
+    "Fuerza": 6,
+    "Rango": 0,
+    "Range": "Genin",
     "Armadura": 1,
     "Salud": 100,
     "Jutsu": [
-      "Human Cocoon Technique (Anime only)",
-      "Insect Clone Technique",
-      "Insect Jamming Technique",
-      "Insect Jar Technique (Anime only)",
-      "Insect Rope Technique (Anime only)",
-      "Iron Mountain Leaning (Anime only)",
-      "Manipulated Shuriken Technique (Anime only)",
-      "Parasitic Destruction Insect Technique (Giant Insect, Kidaich\u016B, Kikaich\u016B)",
-      "Parasitic Giant Insect \u2014 Bug Bite",
-      "Secret Technique: Insect Cocoon (Anime only)",
-      "Secret Technique: Insect Gathering (Anime only)",
-      "Secret Technique: Insect Sphere",
-      "Secret Technique: Insect Tornado (Anime only)",
-      "Secret Technique: Insect Wall (Anime only)",
-      "Spindle Formation (Anime only)",
-      "Summoning Technique (Giant Insect, Kidaich\u016B, Kikaich\u016B)"
+      "Naruto: Shinobi Collection Shipp\u016B Ranbu27 July 2015"
     ],
-    "Nombre": "Shino Aburame",
+    "Nombre": "Shibi Aburame",
     "Clan": "Aburame",
-    "FechaNacimiento": "1977-4-28",
-    "Edad": 47
+    "FechaNacimiento": "1985-7-8",
+    "Edad": 39
   },
   {
-    "Velocidad": 3,
-    "Destreza": 5,
-    "Fuerza": 1,
+    "Velocidad": 6,
+    "Destreza": 2,
+    "Fuerza": 4,
     "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 1,
+    "Range": "Genin",
+    "Armadura": 4,
     "Salud": 100,
     "Jutsu": [
       "Parasitic Destruction Insect Technique (Koch\u016B)"
     ],
     "Nombre": "Y\u014Dji Aburame",
     "Clan": "Aburame",
-    "FechaNacimiento": "1843-4-9",
-    "Edad": 181
+    "FechaNacimiento": "1971-9-1",
+    "Edad": 53
   },
   {
-    "Velocidad": 6,
+    "Velocidad": 5,
     "Destreza": 3,
-    "Fuerza": 4,
+    "Fuerza": 8,
     "Rango": 0,
     "Range": "Kage",
-    "Armadura": 7,
+    "Armadura": 4,
     "Salud": 100,
     "Jutsu": [
-      "Naruto: Ultimate Ninja Online14 April 201320 July 2016"
+      "Parasitic Destruction Insect Technique (Koch\u016B)"
     ],
-    "Nombre": "Zaku Abumi",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1818-9-27",
-    "Edad": 206
+    "Nombre": "Y\u014Dji Aburame",
+    "Clan": "Aburame",
+    "FechaNacimiento": "1808-5-7",
+    "Edad": 216
   }
 ]
