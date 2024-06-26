@@ -1,16 +1,35 @@
 ﻿using InicioCompleto;
 using FabricarPersonajes;
 using RellenarPersonajes;
-using ManejoJson;
-using ManejoJsonGanadores;
-using torneo;
 
-Console.WriteLine("######################################################");
-Console.WriteLine("###########################Bievenido a la Mini Gran Guerra Ninja###########################");
-Console.WriteLine("######################################################");
+Console.CursorVisible = false;
 
-Console.WriteLine("Ingresar una letra");
-Console.ReadKey();
+FabricaDePersonajes Pj = new FabricaDePersonajes();
+
+List<Personaje> MostrarEnemigos = await Pj.CrearEnemigos();
+
+
+Console.WriteLine("\n#############################################################################################################");
+Console.WriteLine("###########################         Bievenido a la Mini Gran Guerra Ninja         ###########################");
+Console.WriteLine("#############################################################################################################\n");
+
+
+
+
+Console.WriteLine("Ingresar una letra para presentar a los luchadores");
+Console.ReadKey(true);
+Console.Clear();
+
+Console.WriteLine("\n###############################################################################################################");
+Console.WriteLine("###########################         Los protagonistas de este torneo seran:         ###########################");
+Console.WriteLine("###############################################################################################################\n");
+
+int i = 1;
+foreach (Personaje pj in MostrarEnemigos)
+{
+    Console.WriteLine($"{i}.{pj.Nombre}");
+    i++;
+}
 
 PeleaCompleta inicio = new PeleaCompleta();
 

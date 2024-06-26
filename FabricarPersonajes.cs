@@ -7,13 +7,11 @@ using ManejoDeApi;
 
 public class FabricaDePersonajes{
 private List<Personaje> enemigos;
-private Personaje miPersonaje;
 
-public FabricaDePersonajes(){
-    enemigos = new List<Personaje>(); 
-}
+
 public async Task<List<Personaje>> CrearEnemigos(){
 
+    enemigos = new List<Personaje>(); 
     Random random = new Random();
     List<Character> enemigosApi = await ConsumirApi.TraerInformacionApi();
 
@@ -32,11 +30,11 @@ public async Task<List<Personaje>> CrearEnemigos(){
     int a = random.Next(0, enemigosApi.Count);
 
         Personaje NuevoPersonaje = new Personaje(){
-            Velocidad = random.Next(1, 7),
-            Destreza = random.Next(1, 6),
-            Fuerza = random.Next(1, 11),
+            Velocidad = random.Next(1, 10),
+            Destreza = random.Next(1, 10),
+            Fuerza = random.Next(1, 10),
             Range = nombreRango,
-            Armadura = random.Next(1, 7),
+            Armadura = random.Next(1, 10),
             Jutsu = enemigosApi[a].jutsu ?? ["Taijutsu"],
             Salud = 100,
             Nombre = enemigosApi[a].name,

@@ -1,149 +1,148 @@
 [
   {
-    "Velocidad": 4,
-    "Destreza": 4,
-    "Fuerza": 10,
+    "Velocidad": 1,
+    "Destreza": 9,
+    "Fuerza": 5,
     "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 3,
+    "Range": "Jonin",
+    "Armadura": 2,
     "Salud": 100,
     "Jutsu": [
-      "Black Lightning",
-      "Body Flicker Technique",
-      "Hell Stab",
-      "Lightning Release Chakra Mode",
-      "Lightning Straight"
+      "Mud Release: Bottomless Mud Hole",
+      "Mud Release: Landslide",
+      "Mud Release: Mud Doll",
+      "Mud Release: Muddy Water Wall"
     ],
-    "Nombre": "A (Third Raikage)",
+    "Nombre": "Ameyuki",
     "Clan": "Renegado",
-    "FechaNacimiento": "1812-3-14",
-    "Edad": 212
+    "FechaNacimiento": "1939-9-8",
+    "Edad": 85
   },
   {
     "Velocidad": 6,
-    "Destreza": 3,
-    "Fuerza": 7,
+    "Destreza": 1,
+    "Fuerza": 8,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 4,
+    "Salud": 100,
+    "Jutsu": [
+      "Lightning Tackle",
+      "Poison Mist",
+      "Taisa\u0027s Transformation Technique"
+    ],
+    "Nombre": "Taisa Amagiri",
+    "Clan": "Amagiri",
+    "FechaNacimiento": "1798-4-21",
+    "Edad": 226
+  },
+  {
+    "Velocidad": 4,
+    "Destreza": 6,
+    "Fuerza": 9,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 2,
+    "Salud": 100,
+    "Jutsu": [
+      "Ballistic Waterwheel (Anime only)",
+      "Butterfly Bullet Bombing",
+      "Butterfly Mode",
+      "Calorie Control",
+      "Double Human Bullet Tank",
+      "Earth Release: Practice Brick Technique",
+      "Formation Ino\u2013Shika\u2013Ch\u014D",
+      "Human Bullet Tank",
+      "Human Bullet Yo-Yo",
+      "Multi-Size Technique",
+      "Partial Multi-Size Technique",
+      "Spiked Human Bullet Tank",
+      "Super Multi-Size Technique",
+      "Super Open Hand Slap"
+    ],
+    "Nombre": "Ch\u014Dji Akimichi",
+    "Clan": "Akimichi",
+    "FechaNacimiento": "1767-6-19",
+    "Edad": 257
+  },
+  {
+    "Velocidad": 1,
+    "Destreza": 1,
+    "Fuerza": 1,
+    "Rango": 0,
+    "Range": "Kage",
+    "Armadura": 2,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Fox-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1853-2-10",
+    "Edad": 171
+  },
+  {
+    "Velocidad": 5,
+    "Destreza": 1,
+    "Fuerza": 8,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 6,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "First Animal Path (character)",
+    "Clan": "F\u016Bma",
+    "FechaNacimiento": "1901-9-7",
+    "Edad": 123
+  },
+  {
+    "Velocidad": 7,
+    "Destreza": 8,
+    "Fuerza": 6,
     "Rango": 0,
     "Range": "Genin",
     "Armadura": 6,
     "Salud": 100,
     "Jutsu": [
-      "Six Paths Senjutsu",
-      "Tailed Beast Ball",
-      "Tailed Beast Chakra Arms",
-      "Tailed Beast Shockwave",
-      "Ten-Tails Fission",
-      "Tenpenchii",
-      "Truth-Seeking Ball",
-      "Wood Release: Cutting Technique"
+      "Taijutsu"
     ],
-    "Nombre": "Ten-Tails",
+    "Nombre": "Akkun",
     "Clan": "Renegado",
-    "FechaNacimiento": "1953-4-18",
-    "Edad": 71
-  },
-  {
-    "Velocidad": 6,
-    "Destreza": 3,
-    "Fuerza": 9,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 3,
-    "Salud": 100,
-    "Jutsu": [
-      "Black Lightning",
-      "Body Flicker Technique",
-      "Hell Stab",
-      "Lightning Release Chakra Mode",
-      "Lightning Straight"
-    ],
-    "Nombre": "A (Third Raikage)",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1799-8-18",
-    "Edad": 225
+    "FechaNacimiento": "1759-11-5",
+    "Edad": 265
   },
   {
     "Velocidad": 5,
     "Destreza": 3,
-    "Fuerza": 3,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": [
-      "Black Lightning",
-      "Body Flicker Technique",
-      "Hell Stab",
-      "Lightning Release Chakra Mode",
-      "Lightning Straight"
-    ],
-    "Nombre": "A (Third Raikage)",
-    "Clan": "Renegado",
-    "FechaNacimiento": "2018-5-3",
-    "Edad": 6
-  },
-  {
-    "Velocidad": 1,
-    "Destreza": 5,
-    "Fuerza": 9,
+    "Fuerza": 2,
     "Rango": 0,
     "Range": "Kage",
-    "Armadura": 3,
+    "Armadura": 5,
     "Salud": 100,
     "Jutsu": [
-      "Parasitic Destruction Insect Technique"
+      "Wind Release: Wind Cutter Technique"
     ],
-    "Nombre": "Tatsuma Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1849-1-23",
-    "Edad": 175
+    "Nombre": "Bird-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1918-3-24",
+    "Edad": 106
   },
   {
     "Velocidad": 4,
-    "Destreza": 2,
-    "Fuerza": 6,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": [
-      "Naruto: Shinobi Collection Shipp\u016B Ranbu27 July 2015"
-    ],
-    "Nombre": "Shibi Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1985-7-8",
-    "Edad": 39
-  },
-  {
-    "Velocidad": 6,
-    "Destreza": 2,
-    "Fuerza": 4,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": [
-      "Parasitic Destruction Insect Technique (Koch\u016B)"
-    ],
-    "Nombre": "Y\u014Dji Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1971-9-1",
-    "Edad": 53
-  },
-  {
-    "Velocidad": 5,
     "Destreza": 3,
-    "Fuerza": 8,
+    "Fuerza": 9,
     "Rango": 0,
-    "Range": "Kage",
-    "Armadura": 4,
+    "Range": "4",
+    "Armadura": 8,
     "Salud": 100,
     "Jutsu": [
-      "Parasitic Destruction Insect Technique (Koch\u016B)"
+      "Taijutsu"
     ],
-    "Nombre": "Y\u014Dji Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1808-5-7",
-    "Edad": 216
+    "Nombre": "Anato",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1775-5-15",
+    "Edad": 249
   }
 ]

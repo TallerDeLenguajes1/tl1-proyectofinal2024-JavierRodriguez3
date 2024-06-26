@@ -1,142 +1,18 @@
 [
   {
-    "Velocidad": 7,
+    "Velocidad": 4,
     "Destreza": 3,
-    "Fuerza": 48,
+    "Fuerza": 72,
     "Rango": 0,
-    "Range": "Kage",
+    "Range": "4",
     "Armadura": 8,
     "Salud": 100,
     "Jutsu": [
-      "Body Flicker Technique",
-      "Drop Kick (Anime only)",
-      "Elbow",
-      "Guillotine Drop",
-      "Iron Claw",
-      "Liger Bomb",
-      "Lightning Oppression Horizontal",
-      "Lightning Oppression Horizontal Chop",
-      "Lightning Release Chakra Mode",
-      "Lightning Release: Double Lariat",
-      "Lightning Release: Lariat",
-      "Lightning Straight",
-      "Lightning Water Dragon Bullet"
-    ],
-    "Nombre": "A (Fourth Raikage)",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1992-9-4",
-    "Edad": 32
-  },
-  {
-    "Velocidad": 6,
-    "Destreza": 3,
-    "Fuerza": 32,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 3,
-    "Salud": 88,
-    "Jutsu": [
-      "Parasitic Destruction Insect Technique (Rinkaich\u016B)"
-    ],
-    "Nombre": "Shikuro Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1945-9-3",
-    "Edad": 79
-  },
-  {
-    "Velocidad": 2,
-    "Destreza": 2,
-    "Fuerza": 56,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 8,
-    "Salud": 95,
-    "Jutsu": [
       "Taijutsu"
     ],
-    "Nombre": "A (Second Raikage)",
+    "Nombre": "Anato",
     "Clan": "Renegado",
-    "FechaNacimiento": "2024-6-12",
-    "Edad": 0
-  },
-  {
-    "Velocidad": 6,
-    "Destreza": 3,
-    "Fuerza": 16,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 2,
-    "Salud": 100,
-    "Jutsu": [
-      "Naruto: Ultimate Ninja Online14 April 201320 July 2016"
-    ],
-    "Nombre": "Zaku Abumi",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1983-8-13",
-    "Edad": 41
-  },
-  {
-    "Velocidad": 2,
-    "Destreza": 3,
-    "Fuerza": 24,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 5,
-    "Salud": 12,
-    "Jutsu": [
-      "Parasitic Destruction Insect Technique (Koch\u016B)"
-    ],
-    "Nombre": "Y\u014Dji Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1790-4-7",
-    "Edad": 234
-  },
-  {
-    "Velocidad": 6,
-    "Destreza": 4,
-    "Fuerza": 32,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 10,
-    "Salud": 100,
-    "Jutsu": [
-      "Parasitic Destruction Insect Technique"
-    ],
-    "Nombre": "Tatsuma Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1894-8-22",
-    "Edad": 130
-  },
-  {
-    "Velocidad": 10,
-    "Destreza": 2,
-    "Fuerza": 32,
-    "Rango": 0,
-    "Range": "Kage",
-    "Armadura": 17,
-    "Salud": 74,
-    "Jutsu": [
-      "Taijutsu"
-    ],
-    "Nombre": "Agari",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1903-7-11",
-    "Edad": 121
-  },
-  {
-    "Velocidad": 5,
-    "Destreza": 3,
-    "Fuerza": 64,
-    "Rango": 0,
-    "Range": "Kage",
-    "Armadura": 10,
-    "Salud": 31,
-    "Jutsu": [
-      "Parasitic Destruction Insect Technique (Koch\u016B)"
-    ],
-    "Nombre": "Y\u014Dji Aburame",
-    "Clan": "Aburame",
-    "FechaNacimiento": "1808-5-7",
-    "Edad": 216
+    "FechaNacimiento": "1775-5-15",
+    "Edad": 249
   }
 ]

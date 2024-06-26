@@ -15,7 +15,7 @@ public class ConsumirApi{
             try
             {
                 using HttpClient client = new HttpClient();
-                var url = $"https://narutodb.xyz/api/character";
+                var url = "https://narutodb.xyz/api/character?page=2&limit=40";
                 HttpResponseMessage response = await client.GetAsync(url);
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();

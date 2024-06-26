@@ -1,4 +1,6 @@
 namespace Peleas;
+
+using System.Security.Cryptography;
 using FabricarPersonajes;
 using RellenarPersonajes;
 
@@ -28,11 +30,13 @@ public class Combate
         const int Ajuste = 500;
 
         int danioProvocado = ((ataque * efectividad) - defensa) / Ajuste;
-
         defensor.Salud = defensor.Salud - danioProvocado;
-        Console.WriteLine("-----------------------------------------------------");
+        if(defensor.Salud < 0 ){
+            defensor.Salud = 0;
+        }
+        Console.WriteLine("\n-----------------------------------------------------");
         Console.WriteLine($"{defensor.Nombre} Recibio daño y su vida disminuyo a {defensor.Salud}");
-        Console.WriteLine("-----------------------------------------------------");
+        Console.WriteLine("-----------------------------------------------------\n");
     }
 
     public Personaje turno(Personaje atacante, Personaje defensor)
@@ -41,43 +45,61 @@ public class Combate
             while (atacante.Salud > 0 && defensor.Salud > 0)
             {
                 
-                Console.WriteLine("######################################################");
-                Console.WriteLine("###########################Que comience la batalla###########################");
-                Console.WriteLine("######################################################");
+                Console.WriteLine("\n###########################################################################################");
+                Console.WriteLine("###########################       Que comience la batalla       ###########################");
+                Console.WriteLine("###########################################################################################\n");
 
                 Console.WriteLine($"El peleador {atacante.Nombre} Esta por elegir su movimiento");
                 Console.WriteLine("Seleccionar la opcion deseada");
                 Console.WriteLine("1. Atacar \n 2. Defender \n 3. Saltar \n 4. Rendirse");
-                int eleccion = Convert.ToInt32(Console.ReadLine());
+                
+                int eleccion;
+                do
+                {
+
+                    ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+                    if (char.IsDigit(keyInfo.KeyChar))
+                    {
+                        eleccion = (int)char.GetNumericValue(keyInfo.KeyChar);
+
+                        if (eleccion >= 1 && eleccion <= 4)
+                        {
+                            break;
+                        }
+                    }
+
+                    Console.WriteLine("\nOpción inválida.");
+                }while (true);
 
                 switch (eleccion)
                 {
                     case 1:
                         realizarCombate(atacante, defensor);
-                        if(atacante.Jutsu[0] == "Taiujutsu"){
-                            Console.WriteLine("-----------------------------------------------------");
-                            Console.WriteLine($"{atacante.Nombre} Utilizo {Armas[random.Next(0, 11)]}");
-                            Console.WriteLine("-----------------------------------------------------");
+                        if(atacante.Jutsu[0] == "Taijutsu"){
+                            Console.WriteLine("\n-----------------------------------------------------");
+                            Console.WriteLine($"{atacante.Nombre} Utilizo {Armas[random.Next(0, 10)]}");
+                            Console.WriteLine("-----------------------------------------------------\n");
                         }
                         else{
-                            Console.WriteLine("-----------------------------------------------------");
+                            Console.WriteLine("\n-----------------------------------------------------");
                             Console.WriteLine($"{atacante.Nombre} Utilizo {atacante.Jutsu[random.Next(0, atacante.Jutsu.Count)]}");
-                            Console.WriteLine("-----------------------------------------------------");
+                            Console.WriteLine("-----------------------------------------------------\n");
                         }
                         break;
                     case 2:
                         atacante.Armadura +=  1;
-                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine("\n-----------------------------------------------------");
                         Console.WriteLine($"{atacante.Nombre} se agrego {4} de defensa y ahora tiene {atacante.Armadura}");
-                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine("-----------------------------------------------------\n");
                         break;
                     case 3: 
                         break;    
                     case 4:
                         atacante.Salud = 0;
-                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine("\n-----------------------------------------------------");
                         Console.WriteLine($"{atacante.Nombre} cometio suicidio");
-                        Console.WriteLine("-----------------------------------------------------");
+                        Console.WriteLine("-----------------------------------------------------\n");
                         if (atacante.Salud <= 0)
                         {
                             defensor.Fuerza = defensor.Fuerza * 2;
@@ -94,22 +116,39 @@ public class Combate
                     return defensor;
                 }
 
-                Console.WriteLine("-----------------------------------------------------");
-                Console.WriteLine("-----------------------Que comience la batalla-----------------------");
-                Console.WriteLine("-----------------------------------------------------");
+                Console.WriteLine("\n###########################################################################################");
+                Console.WriteLine("###########################       Que comience la batalla       ###########################");
+                Console.WriteLine("###########################################################################################\n");
 
                 Console.WriteLine($"El peleador {defensor.Nombre} Esta por elegir su movimiento");
                 Console.WriteLine("Seleccionar la opcion deseada");
                 Console.WriteLine("1. Atacar \n 2. Defender \n 3. Saltar \n 4. Rendirse");
-                eleccion = Convert.ToInt32(Console.ReadLine());
+
+                do
+                {
+
+                    ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+                    if (char.IsDigit(keyInfo.KeyChar))
+                    {
+                        eleccion = (int)char.GetNumericValue(keyInfo.KeyChar);
+
+                        if (eleccion >= 1 && eleccion <= 4)
+                        {
+                            break;
+                        }
+                    }
+
+                    Console.WriteLine("\nOpción inválida.");
+                }while (true);
 
                 switch (eleccion)
                 {
                     case 1:
                         realizarCombate(defensor, atacante);
-                        if(defensor.Jutsu[0] == "Taiujutsu"){
+                        if(defensor.Jutsu[0] == "Taijutsu"){
                             Console.WriteLine("-----------------------------------------------------");
-                            Console.WriteLine($"{defensor.Nombre} Utilizo {Armas[random.Next(0, 11)]}");
+                            Console.WriteLine($"{defensor.Nombre} Utilizo {Armas[random.Next(0, 10)]}");
                             Console.WriteLine("-----------------------------------------------------");
                         }
                         else{
@@ -171,6 +210,4 @@ public class Combate
                 return nivel;    
         }
     }
-
-
 }
