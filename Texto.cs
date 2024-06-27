@@ -28,7 +28,7 @@ public class textoProgram
         foreach (char c in texto)
         {
             Console.Write(c);
-            Thread.Sleep(50); // Ajusta el tiempo de espera entre cada caracter (en milisegundos)
+            Thread.Sleep(millisecondsTimeout: 5); // Ajusta el tiempo de espera entre cada caracter (en milisegundos)
         }
     }
 }

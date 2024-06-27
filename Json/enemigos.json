@@ -1,146 +1,144 @@
 [
   {
     "Velocidad": 4,
-    "Destreza": 2,
-    "Fuerza": 9,
+    "Destreza": 6,
+    "Fuerza": 8,
     "Rango": 0,
-    "Range": "4",
-    "Armadura": 6,
+    "Range": "Genin",
+    "Armadura": 5,
     "Salud": 100,
     "Jutsu": [
-      "Calorie Control"
+      "Taijutsu"
     ],
-    "Nombre": "Torifu Akimichi",
-    "Clan": "Akimichi",
-    "FechaNacimiento": "1863-6-4",
-    "Edad": 161
+    "Nombre": "Amino",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1803-6-5",
+    "Edad": 221
   },
   {
-    "Velocidad": 3,
-    "Destreza": 3,
-    "Fuerza": 3,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": [
-      "Calorie Control"
-    ],
-    "Nombre": "D\u014Dt\u014D Akimichi",
-    "Clan": "Akimichi",
-    "FechaNacimiento": "1941-11-9",
-    "Edad": 83
-  },
-  {
-    "Velocidad": 5,
-    "Destreza": 8,
-    "Fuerza": 7,
+    "Velocidad": 8,
+    "Destreza": 7,
+    "Fuerza": 5,
     "Rango": 0,
     "Range": "Kage",
-    "Armadura": 5,
+    "Armadura": 2,
+    "Salud": 100,
+    "Jutsu": [
+      "Ballistic Waterwheel (Anime only)",
+      "Butterfly Bullet Bombing",
+      "Butterfly Mode",
+      "Calorie Control",
+      "Double Human Bullet Tank",
+      "Earth Release: Practice Brick Technique",
+      "Formation Ino\u2013Shika\u2013Ch\u014D",
+      "Human Bullet Tank",
+      "Human Bullet Yo-Yo",
+      "Multi-Size Technique",
+      "Partial Multi-Size Technique",
+      "Spiked Human Bullet Tank",
+      "Super Multi-Size Technique",
+      "Super Open Hand Slap"
+    ],
+    "Nombre": "Ch\u014Dji Akimichi",
+    "Clan": "Akimichi",
+    "FechaNacimiento": "1897-9-13",
+    "Edad": 127
+  },
+  {
+    "Velocidad": 7,
+    "Destreza": 8,
+    "Fuerza": 5,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 9,
+    "Salud": 100,
+    "Jutsu": [
+      "The Springtime of Youth wiki has an article about this topic:",
+      "Akino"
+    ],
+    "Nombre": "Akino",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1753-5-8",
+    "Edad": 271
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 6,
+    "Fuerza": 2,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 7,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "First Animal Path (character)",
+    "Clan": "F\u016Bma",
+    "FechaNacimiento": "1943-3-4",
+    "Edad": 81
+  },
+  {
+    "Velocidad": 4,
+    "Destreza": 9,
+    "Fuerza": 7,
+    "Rango": 0,
+    "Range": "Genin",
+    "Armadura": 1,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Amayo",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1890-7-12",
+    "Edad": 134
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 6,
+    "Fuerza": 7,
+    "Rango": 0,
+    "Range": "Genin",
+    "Armadura": 2,
     "Salud": 100,
     "Jutsu": [
       "Taijutsu"
     ],
     "Nombre": "Anato",
     "Clan": "Renegado",
-    "FechaNacimiento": "1999-10-4",
-    "Edad": 25
+    "FechaNacimiento": "1784-11-26",
+    "Edad": 240
   },
   {
-    "Velocidad": 3,
+    "Velocidad": 2,
     "Destreza": 2,
     "Fuerza": 1,
     "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 2,
+    "Range": "Kage",
+    "Armadura": 9,
     "Salud": 100,
     "Jutsu": [
-      "Calorie Control"
+      "Taijutsu"
     ],
-    "Nombre": "Maruten Akimichi",
-    "Clan": "Akimichi",
-    "FechaNacimiento": "1990-1-9",
-    "Edad": 34
+    "Nombre": "Kankitsu Akitsuki",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1884-10-11",
+    "Edad": 140
   },
   {
     "Velocidad": 4,
-    "Destreza": 3,
-    "Fuerza": 8,
+    "Destreza": 4,
+    "Fuerza": 5,
     "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 4,
+    "Range": "4",
+    "Armadura": 9,
     "Salud": 100,
     "Jutsu": [
-      "Mud Release: Bottomless Mud Hole",
-      "Mud Release: Landslide",
-      "Mud Release: Mud Doll",
-      "Mud Release: Muddy Water Wall"
+      "Mystical Palm Technique"
     ],
-    "Nombre": "Ameyuki",
+    "Nombre": "Amai",
     "Clan": "Renegado",
-    "FechaNacimiento": "1984-8-27",
-    "Edad": 40
-  },
-  {
-    "Velocidad": 1,
-    "Destreza": 9,
-    "Fuerza": 9,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": [
-      "Earth Release: Dropping Lid",
-      "Earth Release: Hiding in Rock Technique (Anime only)",
-      "Earth Release: Sticky Earth Drop (Anime only)",
-      "Shadow Clone Technique (Anime only)",
-      "Temporary Paralysis Technique"
-    ],
-    "Nombre": "Boar-Masked Anbu Member",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1873-11-12",
-    "Edad": 151
-  },
-  {
-    "Velocidad": 7,
-    "Destreza": 6,
-    "Fuerza": 9,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 3,
-    "Salud": 100,
-    "Jutsu": [
-      "Calorie Control",
-      "Double Human Bullet Tank",
-      "Formation Ino\u2013Shika\u2013Ch\u014D",
-      "Human Bullet Tank",
-      "Multi-Size Technique",
-      "Partial Multi-Size Technique",
-      "Super Multi-Size Technique"
-    ],
-    "Nombre": "Ch\u014Dza Akimichi",
-    "Clan": "Akimichi",
-    "FechaNacimiento": "1890-3-10",
-    "Edad": 134
-  },
-  {
-    "Velocidad": 9,
-    "Destreza": 7,
-    "Fuerza": 2,
-    "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": [
-      "Kaima Form",
-      "Scale Senbon",
-      "Summoning Technique (Umib\u014Dzu)",
-      "Water Release: Large Projectile"
-    ],
-    "Nombre": "Amachi",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1857-11-5",
-    "Edad": 167
+    "FechaNacimiento": "1963-6-3",
+    "Edad": 61
   }
 ]
