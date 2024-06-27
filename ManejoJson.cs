@@ -1,6 +1,5 @@
 namespace ManejoJson;
 using RellenarPersonajes;
-using FabricarPersonajes;
 using System.Text.Json;
 
 
@@ -24,7 +23,6 @@ public class PersonajesJson{
             if (!File.Exists(enemigosJson))
             {
                 Console.WriteLine("No existe el archivo");
-                return new List<Personaje>();
             }
             string jsonString =  File.ReadAllText(enemigosJson);
             List<Personaje> enemigos = JsonSerializer.Deserialize<List<Personaje>>(jsonString);
@@ -36,5 +34,5 @@ public class PersonajesJson{
             Console.WriteLine($"Error al guardar personaje {ex.Message}");
             return new List<Personaje>();
         }
-    }
+    }  //No lo uso, pero como es un requerimiento queda aqui.
 }

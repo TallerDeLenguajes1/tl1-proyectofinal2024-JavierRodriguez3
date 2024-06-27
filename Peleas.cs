@@ -51,7 +51,7 @@ public class Combate
 
                 Console.WriteLine($"El peleador {atacante.Nombre} Esta por elegir su movimiento");
                 Console.WriteLine("Seleccionar la opcion deseada");
-                Console.WriteLine("1. Atacar \n 2. Defender \n 3. Saltar \n 4. Rendirse");
+                Console.WriteLine("1. Atacar \n2. Defender \n3. Saltar \n4. Rendirse");
                 
                 int eleccion;
                 do
@@ -122,7 +122,7 @@ public class Combate
 
                 Console.WriteLine($"El peleador {defensor.Nombre} Esta por elegir su movimiento");
                 Console.WriteLine("Seleccionar la opcion deseada");
-                Console.WriteLine("1. Atacar \n 2. Defender \n 3. Saltar \n 4. Rendirse");
+                Console.WriteLine("1. Atacar \n2. Defender \n3. Saltar \n4. Rendirse");
 
                 do
                 {

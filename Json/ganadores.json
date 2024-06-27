@@ -1,18 +1,53 @@
 [
   {
-    "Velocidad": 4,
-    "Destreza": 3,
-    "Fuerza": 72,
+    "Velocidad": 5,
+    "Destreza": 2,
+    "Fuerza": 8,
     "Rango": 0,
-    "Range": "4",
-    "Armadura": 8,
+    "Range": "Chunin",
+    "Armadura": 5,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Fox-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1835-4-12",
+    "Edad": 189
+  },
+  {
+    "Velocidad": 1,
+    "Destreza": 4,
+    "Fuerza": 32,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 3,
     "Salud": 100,
     "Jutsu": [
       "Taijutsu"
     ],
     "Nombre": "Anato",
     "Clan": "Renegado",
-    "FechaNacimiento": "1775-5-15",
-    "Edad": 249
+    "FechaNacimiento": "1930-2-10",
+    "Edad": 94
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 7,
+    "Fuerza": 16,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 1,
+    "Salud": 80,
+    "Jutsu": [
+      "Kaima Form",
+      "Scale Senbon",
+      "Summoning Technique (Umib\u014Dzu)",
+      "Water Release: Large Projectile"
+    ],
+    "Nombre": "Amachi",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1857-11-5",
+    "Edad": 167
   }
 ]
