@@ -14,5 +14,21 @@
     "Clan": "Renegado",
     "FechaNacimiento": "1963-6-3",
     "Edad": 61
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 7,
+    "Fuerza": 72,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 6,
+    "Salud": 97,
+    "Jutsu": [
+      "Calorie Control"
+    ],
+    "Nombre": "Torifu Akimichi",
+    "Clan": "Akimichi",
+    "FechaNacimiento": "1897-10-26",
+    "Edad": 127
   }
 ]

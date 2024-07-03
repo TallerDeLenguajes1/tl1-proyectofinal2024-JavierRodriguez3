@@ -5,10 +5,10 @@ using textoLindo;
 
 Console.CursorVisible = false;
 
-textoProgram lindoTexto = new textoProgram();
+textoProgram ShowProgram = new textoProgram();
 
 
-lindoTexto.MostrarMensaje();
+ShowProgram.MostrarMensaje();
 
 
 FabricaDePersonajes Pj = new FabricaDePersonajes();

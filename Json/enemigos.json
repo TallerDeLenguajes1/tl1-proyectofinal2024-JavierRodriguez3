@@ -1,144 +1,140 @@
 [
   {
-    "Velocidad": 4,
-    "Destreza": 6,
-    "Fuerza": 8,
+    "Velocidad": 9,
+    "Destreza": 1,
+    "Fuerza": 4,
     "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 5,
+    "Range": "Kage",
+    "Armadura": 3,
     "Salud": 100,
     "Jutsu": [
-      "Taijutsu"
+      "Calorie Control",
+      "Double Human Bullet Tank",
+      "Formation Ino\u2013Shika\u2013Ch\u014D",
+      "Human Bullet Tank",
+      "Multi-Size Technique",
+      "Partial Multi-Size Technique",
+      "Super Multi-Size Technique"
     ],
-    "Nombre": "Amino",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1803-6-5",
-    "Edad": 221
+    "Nombre": "Ch\u014Dza Akimichi",
+    "Clan": "Akimichi",
+    "FechaNacimiento": "1813-11-11",
+    "Edad": 211
   },
   {
     "Velocidad": 8,
-    "Destreza": 7,
-    "Fuerza": 5,
+    "Destreza": 6,
+    "Fuerza": 9,
     "Rango": 0,
     "Range": "Kage",
-    "Armadura": 2,
+    "Armadura": 4,
     "Salud": 100,
     "Jutsu": [
-      "Ballistic Waterwheel (Anime only)",
-      "Butterfly Bullet Bombing",
-      "Butterfly Mode",
-      "Calorie Control",
-      "Double Human Bullet Tank",
-      "Earth Release: Practice Brick Technique",
-      "Formation Ino\u2013Shika\u2013Ch\u014D",
-      "Human Bullet Tank",
-      "Human Bullet Yo-Yo",
-      "Multi-Size Technique",
-      "Partial Multi-Size Technique",
-      "Spiked Human Bullet Tank",
-      "Super Multi-Size Technique",
-      "Super Open Hand Slap"
+      "Wind Release: Wind Cutter Technique"
     ],
-    "Nombre": "Ch\u014Dji Akimichi",
+    "Nombre": "Bird-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1816-5-6",
+    "Edad": 208
+  },
+  {
+    "Velocidad": 1,
+    "Destreza": 9,
+    "Fuerza": 8,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 3,
+    "Salud": 100,
+    "Jutsu": [
+      "Calorie Control",
+      "Multi-Size Technique",
+      "Partial Multi-Size Technique"
+    ],
+    "Nombre": "Shit\u014D Akimichi",
     "Clan": "Akimichi",
-    "FechaNacimiento": "1897-9-13",
+    "FechaNacimiento": "1968-4-20",
+    "Edad": 56
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 7,
+    "Fuerza": 9,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 5,
+    "Salud": 100,
+    "Jutsu": [
+      "Calorie Control"
+    ],
+    "Nombre": "Torifu Akimichi",
+    "Clan": "Akimichi",
+    "FechaNacimiento": "1897-10-26",
     "Edad": 127
   },
   {
-    "Velocidad": 7,
-    "Destreza": 8,
-    "Fuerza": 5,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 9,
-    "Salud": 100,
-    "Jutsu": [
-      "The Springtime of Youth wiki has an article about this topic:",
-      "Akino"
-    ],
-    "Nombre": "Akino",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1753-5-8",
-    "Edad": 271
-  },
-  {
-    "Velocidad": 9,
-    "Destreza": 6,
-    "Fuerza": 2,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 7,
-    "Salud": 100,
-    "Jutsu": [
-      "Taijutsu"
-    ],
-    "Nombre": "First Animal Path (character)",
-    "Clan": "F\u016Bma",
-    "FechaNacimiento": "1943-3-4",
-    "Edad": 81
-  },
-  {
-    "Velocidad": 4,
+    "Velocidad": 3,
     "Destreza": 9,
-    "Fuerza": 7,
+    "Fuerza": 9,
     "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 1,
-    "Salud": 100,
-    "Jutsu": [
-      "Taijutsu"
-    ],
-    "Nombre": "Amayo",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1890-7-12",
-    "Edad": 134
-  },
-  {
-    "Velocidad": 9,
-    "Destreza": 6,
-    "Fuerza": 7,
-    "Rango": 0,
-    "Range": "Genin",
-    "Armadura": 2,
+    "Range": "4",
+    "Armadura": 8,
     "Salud": 100,
     "Jutsu": [
       "Taijutsu"
     ],
     "Nombre": "Anato",
     "Clan": "Renegado",
-    "FechaNacimiento": "1784-11-26",
-    "Edad": 240
+    "FechaNacimiento": "1958-10-2",
+    "Edad": 66
+  },
+  {
+    "Velocidad": 3,
+    "Destreza": 3,
+    "Fuerza": 6,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 1,
+    "Salud": 100,
+    "Jutsu": [
+      "Wind Release: Wind Cutter Technique"
+    ],
+    "Nombre": "Bird-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1960-2-18",
+    "Edad": 64
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 4,
+    "Fuerza": 7,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 7,
+    "Salud": 100,
+    "Jutsu": [
+      "Hiding in Surface Technique (Anime only)",
+      "Temporary Paralysis Technique",
+      "Water Clone Technique (Anime only)"
+    ],
+    "Nombre": "Eagle-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "2022-2-3",
+    "Edad": 2
   },
   {
     "Velocidad": 2,
-    "Destreza": 2,
-    "Fuerza": 1,
+    "Destreza": 1,
+    "Fuerza": 2,
     "Rango": 0,
-    "Range": "Kage",
-    "Armadura": 9,
+    "Range": "Jonin",
+    "Armadura": 3,
     "Salud": 100,
     "Jutsu": [
       "Taijutsu"
     ],
-    "Nombre": "Kankitsu Akitsuki",
+    "Nombre": "Amaru",
     "Clan": "Renegado",
-    "FechaNacimiento": "1884-10-11",
-    "Edad": 140
-  },
-  {
-    "Velocidad": 4,
-    "Destreza": 4,
-    "Fuerza": 5,
-    "Rango": 0,
-    "Range": "4",
-    "Armadura": 9,
-    "Salud": 100,
-    "Jutsu": [
-      "Mystical Palm Technique"
-    ],
-    "Nombre": "Amai",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1963-6-3",
-    "Edad": 61
+    "FechaNacimiento": "1841-5-26",
+    "Edad": 183
   }
 ]

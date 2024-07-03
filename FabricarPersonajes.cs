@@ -16,6 +16,8 @@ public async Task<List<Personaje>> CrearEnemigos(){
     List<Character> enemigosApi = await ConsumirApi.TraerInformacionApi();
 
 
+        
+
     for (int i = 0; i < 8; i++)
     {
         int valorNumerico = random.Next(0, 5);
