@@ -1,4 +1,4 @@
-namespace textoLindo;
+namespace ShowProgram;
 using System;
 using System.Threading;
 

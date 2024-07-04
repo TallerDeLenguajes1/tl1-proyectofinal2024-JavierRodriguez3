@@ -30,5 +30,37 @@
     "Clan": "Akimichi",
     "FechaNacimiento": "1897-10-26",
     "Edad": 127
+  },
+  {
+    "Velocidad": 6,
+    "Destreza": 9,
+    "Fuerza": 16,
+    "Rango": 0,
+    "Range": "Kage",
+    "Armadura": 7,
+    "Salud": 90,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Anato",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1987-7-7",
+    "Edad": 37
+  },
+  {
+    "Velocidad": 8,
+    "Destreza": 8,
+    "Fuerza": 16,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 4,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Kankitsu Akitsuki",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1989-10-1",
+    "Edad": 35
   }
 ]

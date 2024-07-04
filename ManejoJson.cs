@@ -7,26 +7,26 @@ using System.Text.Json;
 public class PersonajesJson{
 
 
-    public void GuardarPersonaje(List<Personaje> enemigos, string enemigosJson){
+    public void GuardarPersonaje(List<Personaje> personajes, string personajesJson){
         try{
-            string jsonString = JsonSerializer.Serialize(enemigos, new JsonSerializerOptions{WriteIndented = true});
-            File.WriteAllText(enemigosJson, jsonString);
+            string jsonString = JsonSerializer.Serialize(personajes, new JsonSerializerOptions{WriteIndented = true});
+            File.WriteAllText(personajesJson, jsonString);
         }
         catch (Exception ex){
             Console.WriteLine($"Error al guardar personaje {ex.Message}");
         }
     }
 
-    public List<Personaje> LeerPersonajes(string enemigosJson){
+    public List<Personaje> LeerPersonajes(string personajesJson){
         try
         {
-            if (!File.Exists(enemigosJson))
+            if (!File.Exists(personajesJson))
             {
                 Console.WriteLine("No existe el archivo");
             }
-            string jsonString =  File.ReadAllText(enemigosJson);
-            List<Personaje> enemigos = JsonSerializer.Deserialize<List<Personaje>>(jsonString);
-            return enemigos;
+            string jsonString =  File.ReadAllText(personajesJson);
+            List<Personaje> personajes = JsonSerializer.Deserialize<List<Personaje>>(jsonString);
+            return personajes;
         }
         catch (Exception ex)
         {

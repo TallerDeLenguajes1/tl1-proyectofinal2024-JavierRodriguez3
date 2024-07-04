@@ -21,21 +21,21 @@ public class Combate
     "Kiba"
 };
 
-    public void  realizarCombate(Personaje atacante, Personaje defensor)
+    public void  realizarCombate(Personaje p1, Personaje p2)
     {
         var random = new Random();
-        int ataque = atacante.Destreza * atacante.Fuerza * this.modRango(atacante);
+        int ataque = p1.Destreza * p1.Fuerza * this.modRango(p1);
         int efectividad = random.Next(1, 101);
-        int defensa = defensor.Armadura * defensor.Velocidad;
+        int defensa = p2.Armadura * p2.Velocidad;
         const int Ajuste = 500;
 
         int danioProvocado = ((ataque * efectividad) - defensa) / Ajuste;
-        defensor.Salud = defensor.Salud - danioProvocado;
-        if(defensor.Salud < 0 ){
-            defensor.Salud = 0;
+        p2.Salud = p2.Salud - danioProvocado;
+        if(p2.Salud < 0 ){
+            p2.Salud = 0;
         }
         Console.WriteLine("\n-----------------------------------------------------");
-        Console.WriteLine($"{defensor.Nombre} Recibio daño y su vida disminuyo a {defensor.Salud}");
+        Console.WriteLine($"{p2.Nombre} Recibio daño y su vida disminuyo a {p2.Salud}");
         Console.WriteLine("-----------------------------------------------------\n");
     }
 
@@ -90,7 +90,7 @@ public class Combate
                     case 2:
                         atacante.Armadura +=  1;
                         Console.WriteLine("\n-----------------------------------------------------");
-                        Console.WriteLine($"{atacante.Nombre} se agrego {4} de defensa y ahora tiene {atacante.Armadura}");
+                        Console.WriteLine($"{atacante.Nombre} se agrego {1} de defensa y ahora tiene {atacante.Armadura}");
                         Console.WriteLine("-----------------------------------------------------\n");
                         break;
                     case 3: 
@@ -160,7 +160,7 @@ public class Combate
                     case 2:
                         defensor.Armadura += 1;
                         Console.WriteLine("-----------------------------------------------------");
-                        Console.WriteLine($"{defensor.Nombre} se agrego {4} de defensa y ahora tiene {defensor.Armadura}");
+                        Console.WriteLine($"{defensor.Nombre} se agrego {1} de defensa y ahora tiene {defensor.Armadura}");
                         Console.WriteLine("-----------------------------------------------------");
                         break;
                     case 3: 
