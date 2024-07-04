@@ -1,26 +1,10 @@
 [
   {
-    "Velocidad": 3,
-    "Destreza": 3,
-    "Fuerza": 8,
+    "Velocidad": 1,
+    "Destreza": 9,
+    "Fuerza": 6,
     "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 3,
-    "Salud": 100,
-    "Jutsu": [
-      "Wind Release: Wind Cutter Technique"
-    ],
-    "Nombre": "Bird-Masked Anbu Member",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1903-1-18",
-    "Edad": 121
-  },
-  {
-    "Velocidad": 7,
-    "Destreza": 2,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "Jonin",
+    "Range": "Genin",
     "Armadura": 1,
     "Salud": 100,
     "Jutsu": [
@@ -30,47 +14,31 @@
     ],
     "Nombre": "Eagle-Masked Anbu Member",
     "Clan": "Renegado",
-    "FechaNacimiento": "1921-11-25",
-    "Edad": 103
+    "FechaNacimiento": "1803-7-20",
+    "Edad": 221
   },
   {
-    "Velocidad": 6,
-    "Destreza": 1,
-    "Fuerza": 7,
+    "Velocidad": 2,
+    "Destreza": 9,
+    "Fuerza": 9,
     "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 9,
+    "Range": "Genin",
+    "Armadura": 6,
     "Salud": 100,
     "Jutsu": [
       "Taijutsu"
     ],
-    "Nombre": "Mikazuki Amaashi",
+    "Nombre": "S\u014Dsha Amino",
     "Clan": "Renegado",
-    "FechaNacimiento": "1930-6-20",
-    "Edad": 94
+    "FechaNacimiento": "2004-10-4",
+    "Edad": 20
   },
   {
-    "Velocidad": 6,
-    "Destreza": 4,
-    "Fuerza": 7,
+    "Velocidad": 5,
+    "Destreza": 3,
+    "Fuerza": 5,
     "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": [
-      "Naruto Shipp\u016Bden: Ultimate Ninja Storm 221 October 201019 October 2010"
-    ],
-    "Nombre": "Lars Alexandersson",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1811-2-15",
-    "Edad": 213
-  },
-  {
-    "Velocidad": 7,
-    "Destreza": 5,
-    "Fuerza": 3,
-    "Rango": 0,
-    "Range": "Chunin",
+    "Range": "4",
     "Armadura": 3,
     "Salud": 100,
     "Jutsu": [
@@ -78,55 +46,91 @@
     ],
     "Nombre": "Makaro Akimichi",
     "Clan": "Akimichi",
-    "FechaNacimiento": "1823-11-14",
-    "Edad": 201
+    "FechaNacimiento": "1837-9-1",
+    "Edad": 187
   },
   {
     "Velocidad": 5,
-    "Destreza": 6,
+    "Destreza": 9,
+    "Fuerza": 2,
+    "Rango": 0,
+    "Range": "Genin",
+    "Armadura": 8,
+    "Salud": 100,
+    "Jutsu": [
+      "Fire Release: Fire Dragon Wall",
+      "Fire Release: Great Fireball Technique",
+      "Fire Release: Phoenix Sage Fire Technique"
+    ],
+    "Nombre": "Aniki (missing-nin)",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1929-1-1",
+    "Edad": 95
+  },
+  {
+    "Velocidad": 6,
+    "Destreza": 2,
+    "Fuerza": 4,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 1,
+    "Salud": 100,
+    "Jutsu": [
+      "Ankorod\u014D Hiden Ninjutsu: Mochi Release: Infinite Dumplings"
+    ],
+    "Nombre": "Ankorod\u014D Shop Owner",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1915-4-1",
+    "Edad": 109
+  },
+  {
+    "Velocidad": 1,
+    "Destreza": 3,
     "Fuerza": 2,
     "Rango": 0,
     "Range": "4",
-    "Armadura": 7,
-    "Salud": 100,
-    "Jutsu": [
-      "Calorie Control"
-    ],
-    "Nombre": "D\u014Dt\u014D Akimichi",
-    "Clan": "Akimichi",
-    "FechaNacimiento": "1941-3-12",
-    "Edad": 83
-  },
-  {
-    "Velocidad": 7,
-    "Destreza": 2,
-    "Fuerza": 1,
-    "Rango": 0,
-    "Range": "Chunin",
-    "Armadura": 4,
-    "Salud": 100,
-    "Jutsu": [
-      "Taijutsu"
-    ],
-    "Nombre": "Akio",
-    "Clan": "Renegado",
-    "FechaNacimiento": "1848-6-3",
-    "Edad": 176
-  },
-  {
-    "Velocidad": 3,
-    "Destreza": 7,
-    "Fuerza": 2,
-    "Rango": 0,
-    "Range": "Jonin",
-    "Armadura": 2,
+    "Armadura": 3,
     "Salud": 100,
     "Jutsu": [
       "Mystical Palm Technique"
     ],
     "Nombre": "Amai",
     "Clan": "Renegado",
-    "FechaNacimiento": "1783-6-27",
-    "Edad": 241
+    "FechaNacimiento": "1870-5-20",
+    "Edad": 154
+  },
+  {
+    "Velocidad": 3,
+    "Destreza": 9,
+    "Fuerza": 9,
+    "Rango": 0,
+    "Range": "Genin",
+    "Armadura": 1,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Tiger-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1755-10-12",
+    "Edad": 269
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 8,
+    "Fuerza": 5,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 6,
+    "Salud": 100,
+    "Jutsu": [
+      "Fire Release: Fire Dragon Wall",
+      "Fire Release: Great Fireball Technique",
+      "Fire Release: Phoenix Sage Fire Technique"
+    ],
+    "Nombre": "Aniki (missing-nin)",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1933-7-19",
+    "Edad": 91
   }
 ]

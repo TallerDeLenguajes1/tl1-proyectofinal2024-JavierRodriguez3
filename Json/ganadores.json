@@ -62,5 +62,23 @@
     "Clan": "Renegado",
     "FechaNacimiento": "1989-10-1",
     "Edad": 35
+  },
+  {
+    "Velocidad": 9,
+    "Destreza": 8,
+    "Fuerza": 40,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 6,
+    "Salud": 78,
+    "Jutsu": [
+      "Fire Release: Fire Dragon Wall",
+      "Fire Release: Great Fireball Technique",
+      "Fire Release: Phoenix Sage Fire Technique"
+    ],
+    "Nombre": "Aniki (missing-nin)",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1933-7-19",
+    "Edad": 91
   }
 ]
