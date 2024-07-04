@@ -1,0 +1,132 @@
+[
+  {
+    "Velocidad": 3,
+    "Destreza": 3,
+    "Fuerza": 8,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 3,
+    "Salud": 100,
+    "Jutsu": [
+      "Wind Release: Wind Cutter Technique"
+    ],
+    "Nombre": "Bird-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1903-1-18",
+    "Edad": 121
+  },
+  {
+    "Velocidad": 7,
+    "Destreza": 2,
+    "Fuerza": 1,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 1,
+    "Salud": 100,
+    "Jutsu": [
+      "Hiding in Surface Technique (Anime only)",
+      "Temporary Paralysis Technique",
+      "Water Clone Technique (Anime only)"
+    ],
+    "Nombre": "Eagle-Masked Anbu Member",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1921-11-25",
+    "Edad": 103
+  },
+  {
+    "Velocidad": 6,
+    "Destreza": 1,
+    "Fuerza": 7,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 9,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Mikazuki Amaashi",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1930-6-20",
+    "Edad": 94
+  },
+  {
+    "Velocidad": 6,
+    "Destreza": 4,
+    "Fuerza": 7,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 4,
+    "Salud": 100,
+    "Jutsu": [
+      "Naruto Shipp\u016Bden: Ultimate Ninja Storm 221 October 201019 October 2010"
+    ],
+    "Nombre": "Lars Alexandersson",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1811-2-15",
+    "Edad": 213
+  },
+  {
+    "Velocidad": 7,
+    "Destreza": 5,
+    "Fuerza": 3,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 3,
+    "Salud": 100,
+    "Jutsu": [
+      "Calorie Control"
+    ],
+    "Nombre": "Makaro Akimichi",
+    "Clan": "Akimichi",
+    "FechaNacimiento": "1823-11-14",
+    "Edad": 201
+  },
+  {
+    "Velocidad": 5,
+    "Destreza": 6,
+    "Fuerza": 2,
+    "Rango": 0,
+    "Range": "4",
+    "Armadura": 7,
+    "Salud": 100,
+    "Jutsu": [
+      "Calorie Control"
+    ],
+    "Nombre": "D\u014Dt\u014D Akimichi",
+    "Clan": "Akimichi",
+    "FechaNacimiento": "1941-3-12",
+    "Edad": 83
+  },
+  {
+    "Velocidad": 7,
+    "Destreza": 2,
+    "Fuerza": 1,
+    "Rango": 0,
+    "Range": "Chunin",
+    "Armadura": 4,
+    "Salud": 100,
+    "Jutsu": [
+      "Taijutsu"
+    ],
+    "Nombre": "Akio",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1848-6-3",
+    "Edad": 176
+  },
+  {
+    "Velocidad": 3,
+    "Destreza": 7,
+    "Fuerza": 2,
+    "Rango": 0,
+    "Range": "Jonin",
+    "Armadura": 2,
+    "Salud": 100,
+    "Jutsu": [
+      "Mystical Palm Technique"
+    ],
+    "Nombre": "Amai",
+    "Clan": "Renegado",
+    "FechaNacimiento": "1783-6-27",
+    "Edad": 241
+  }
+]
